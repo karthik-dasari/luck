@@ -98,9 +98,9 @@ body {
     margin: auto;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    -webkit-animation:spin 20s linear infinite;
-    -moz-animation:spin 20s linear infinite;
-    animation:spin 20s linear infinite;
+    -webkit-animation:spin 7s linear infinite;
+    -moz-animation:spin 7s linear infinite;
+    animation:spin 7s linear infinite;
     overflow: hidden;
 }
 @-moz-keyframes spin { 
@@ -250,8 +250,8 @@ body {
     top: 3.33333333rem !important;
     position: absolute;
     left: 0;
-    width: 16rem;
-    height: 22rem;
+    width: 22rem;
+    height: 28rem;
     right: 0;
     bottom: 0;
     margin: auto;
@@ -289,8 +289,8 @@ body {
     position: absolute;
     top: -1.06666667rem;
     left: 50%;
-    width: 9.81333333rem;
-    height: 9.84rem;
+    width: 13.84rem;
+    height: 13.84rem;
     background-size: 100% auto;
     background-repeat: no-repeat;
     right: 0;
@@ -313,8 +313,8 @@ body {
     font-size: 12px;
     position: absolute;
     left: 0;
-    width: 16rem;
-    height: 22rem;
+    width: 22rem;
+    height: 28rem;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-image: url("https://cdn.soinluck.com/images/8b1f1903edf24eaca43b629492dd3f27.png");
@@ -323,10 +323,10 @@ body {
 .coupon{
     font-size: 12px;
     position: absolute;
-    left: 33px;
-    top: 92px;
-    width: 12.10667rem;
-    height: 6.8rem;
+    left: 40px;
+    top: 126px;
+    width: 17.10667rem;
+    height: 8.8rem;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-image: url("https://cdn.soinluck.com/images/8b1f1903edf24eaca43b629492dd3f27.png");
@@ -353,7 +353,7 @@ body {
 .btn-cat{
     font-size: 12px;
     position: absolute;
-    top: 10.3rem;
+    top: 18.3rem;
     left: 0;
     width: 4.8rem;
     height: 4.8rem;
@@ -757,4 +757,88 @@ body {
     width: fit-content;
     height: 27.35rem;
     overflow-y: scroll;
+}
+
+.list-box{
+    -webkit-tap-highlight-color: transparent;
+    font-size: 10.9867px;
+    margin: 0;
+    line-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    min-height: 100vh;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+}
+
+.prize-container{
+    -webkit-tap-highlight-color: transparent;
+    font-size: 10.9867px;
+    margin: 0;
+    line-height: 100%;
+    height: calc(100vh - 2.98rem);
+    overflow-y: scroll;
+}
+
+.prize-box{
+    -webkit-tap-highlight-color: transparent;
+    font-size: 10.9867px;
+    margin: 0;
+    line-height: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cecece;
+}
+
+.prize-pic{
+    -webkit-tap-highlight-color: transparent;
+    font-size: 10.9867px;
+    line-height: 100%;
+    margin: 0;
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.pic-info{
+    -webkit-tap-highlight-color: transparent;
+    font-size: 10.9867px;
+    margin: 0;
+    line-height: 100%;
+}
+
+.take-it{
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    line-height: 1.8rem;
+    color: #fff;
+    font-size: 1.6rem;
+    background: red;
+    position: relative;
+    width: 7.25rem;
+    height: 7.25rem;
+    border-radius: 7.25rem;
+    text-align: center;
+}
+
+.header{
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    line-height: 100%;
+    width: 100%;
+    height: 2.98rem;
+    background-color: #fb9ca2;
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    padding: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }

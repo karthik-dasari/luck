@@ -125,7 +125,9 @@
 
     <div class="modal" id="myModal">
         <div class="modal-content">
-            <span id="close-modal-btn"><div class="pop-close"></div></span>
+            <span id="close-modal-btn">
+                <div class="pop-close"></div>
+            </span>
             <div class="box-cat">
                 <div class="light"></div>
                 <div class="dialog-cat"
@@ -133,7 +135,6 @@
                     <div class="coupon"
                         style="background-image: url(&quot;https://cdn.soinluck.com/images/04feaed071464abdaa03095f27520aa4.webp&quot;);">
                     </div>
-                    <div class="name-wrap"><span class="name advTitle">Register &amp; Win</span></div>
                     <div class="btn-cat"
                         style="background-image: url(&quot;https://cdn.soinluck.com/images/bbe34bfd9be944989baa4479bfb5ba9a.png&quot;);">
                     </div>
@@ -160,8 +161,8 @@
             <div class="closeBox">
                 <div class="rightTopChunk">
                     <div class="fillChunk"></div>
-                    <div class="closeBox" id="closeboxfaq"><svg width="20" height="20"
-                            viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="closeBox" id="closeboxfaq"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M3.17503 3.06248C1.88713 4.35038 1.88713 6.43847 3.17503 7.72637L5.60788 10.1592L3.89781 11.8693C2.60991 13.1572 2.60991 15.2453 3.89781 16.5332C5.18571 17.8211 7.2738 17.8211 8.5617 16.5332L10.2718 14.8231L11.57 16.1214C12.8579 17.4093 14.946 17.4093 16.2339 16.1214C17.5218 14.8335 17.5218 12.7454 16.2339 11.4575L14.9357 10.1592L16.9567 8.13818C18.2446 6.85028 18.2446 4.76218 16.9567 3.47428C15.6688 2.18639 13.5807 2.18638 12.2928 3.47428L10.2718 5.49533L7.83892 3.06248C6.55102 1.77458 4.46293 1.77458 3.17503 3.06248Z"
                                 fill="#8E5B4A"></path>
@@ -256,6 +257,64 @@
                         <div><br></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-box" id="list-box">
+        <div  class="header" id="header"><svg width="2rem" height="1.66rem"
+                viewBox="0 0 1242 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <path
+                    d="M850.4533 1023.959514H77.322277V869.314961h773.204077c83.8717 1.534145 162.029857-42.334252 204.409981-114.717703 42.380124-72.390246 42.380124-162.016265 0-234.401414-42.380124-72.390246-120.53828-116.258644-204.409981-114.724499H386.602888v231.885281L0 328.149069 386.602888 0v250.826792h463.850412c139.406737-1.970773 269.076834 71.27574 339.356993 191.688298s70.280159 269.341869 0 389.754427c-70.280159 120.419354-199.950256 193.660771-339.356993 191.689997z m0 0"
+                    fill="white"></path>
+            </svg>
+            <p class="title">BACK TO THE GAME</p>
+        </div>
+        <div  class="prize-container">
+            <div  class="prize-box"><img 
+                    src="https://cdn.oksp.in/img/2023/10/19/8e1a427255c05bb4e7846e91b44f3069.gif" alt=""
+                    class="prize-pic">
+                <div  class="pic-info">
+                    <p  class="num"></p>
+                    <p  class="name"></p>
+                </div>
+                <div  class="take-it"><br > GET PRIZE </div>
+            </div>
+            <div  class="prize-box"><img 
+                    src="https://cdn.oksp.in/img/2023/10/23/5f48accc87f4ea8f15c16f50125cc654.gif" alt=""
+                    class="prize-pic">
+                <div  class="pic-info">
+                    <p  class="num"></p>
+                    <p  class="name"></p>
+                </div>
+                <div  class="take-it"><br > GET PRIZE </div>
+            </div>
+            <div  class="prize-box"><img 
+                    src="https://cdn.oksp.in/img/2022/12/28/15c74262fe1bcf339ae575003b7914e6.gif" alt=""
+                    class="prize-pic">
+                <div  class="pic-info">
+                    <p  class="num"></p>
+                    <p  class="name"></p>
+                </div>
+                <div  class="take-it"><br > GET PRIZE </div>
+            </div>
+            <div  class="prize-box"><img 
+                    src="https://cdn.oksp.in/img/2023/10/17/cbb7e97e0ac044502f2bbdb908bca1a2.gif" alt=""
+                    class="prize-pic">
+                <div  class="pic-info">
+                    <p  class="num"></p>
+                    <p  class="name"></p>
+                </div>
+                <div  class="take-it"><br > GET PRIZE </div>
+            </div>
+            <div  class="prize-box"><img 
+                    src="https://cdn.oksp.in/img/2023/04/14/cd0f7ffb7c139c836eb0080456d965f4.gif" alt=""
+                    class="prize-pic">
+                <div  class="pic-info">
+                    <p  class="num"></p>
+                    <p  class="name"></p>
+                </div>
+                <div  class="take-it"><br > GET PRIZE </div>
             </div>
         </div>
     </div>
@@ -361,7 +420,7 @@
         })
 
         $("#prize-icon").click(function () {
-            openModal();
+            $("#list-box").css("display", "flex");
         })
 
         $("#faq-icon").click(function () {
@@ -370,6 +429,10 @@
 
         $("#closeboxfaq").click(function () {
             $("#verticle").css("display", "none");
+        })
+
+        $("#header").click(function () {
+            $("#list-box").css("display", "none");
         })
     </script>
 </body>
