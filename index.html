@@ -328,20 +328,20 @@
         });
 
         function stopAtRandomPoint() {
-            clearTimeout(animationTimeout); // Clear the previous timeout
+            // clearTimeout(animationTimeout); // Clear the previous timeout
 
             // Get the current rotation value
-            const style = getComputedStyle(dom);
-            const currentRotation = style.getPropertyValue('transform');
+            // const style = getComputedStyle(dom);
+            // const currentRotation = style.getPropertyValue('transform');
 
-            // Calculate a random stopping point (between 0 and 360 degrees)
-            const randomRotation = Math.floor(Math.random() * 360);
+            // // Calculate a random stopping point (between 0 and 360 degrees)
+            // const randomRotation = Math.floor(Math.random() * 360);
 
-            // Apply the new rotation value to the DOM element
-            dom.style.transform = `rotate(${randomRotation}deg)`;
+            // // Apply the new rotation value to the DOM element
+            // dom.style.transform = `rotate(${randomRotation}deg)`;
 
             // Smoothly slow down the animation with cubic-bezier easing
-            dom.style.transition = 'transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+            // dom.style.transition = 'transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
 
             // Enable the button and show the hand after the transition
             setTimeout(() => {
