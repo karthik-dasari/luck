@@ -89,7 +89,7 @@
             </div>
             <div class="prize-area">
                 <p
-                    style="display: flex;color: rgb(223, 146, 33);flex-direction: row;flex-wrap: nowrap;justify-content: space-evenly;font-weight: bolder;">
+                    style="margin: 0;display: flex;color: rgb(223, 146, 33);flex-direction: row;flex-wrap: nowrap;justify-content: space-evenly;font-weight: bolder;">
                     <span>Prize Pool</span><span id="pool-al">A</span>
                 </p>
                 <div class="area-center" style="background: rgb(223, 146, 33);">
@@ -320,7 +320,7 @@
             animationTimeout = setTimeout(() => {
                 dom.style.animation = 'none'; // Stop the rotation
                 stopAtRandomPoint();
-            }, 5000);
+            }, 2000);
         });
 
         btnbounce.addEventListener('click', () => {
@@ -349,19 +349,18 @@
                 hand.style.display = 'block';
                 dom.style.transition = 'none'; // Remove the transition
                 openModal();
-            }, 2000); // Adjust the time based on the duration of the transition
+            }, 1000); // Adjust the time based on the duration of the transition
         }
 
         function openModal() {
             modal.style.display = 'flex';
         }
 
-        const closeModalBtn = document.getElementById('close-modal-btn');
-        closeModalBtn.addEventListener('click', () => {
+        $("#close-modal-btn").click(function () {
             modal.style.display = 'none';
             btn.classList.remove('btnDisabled');
             hand.style.display = 'block';
-            dom.style.animation = 'spin 20s linear infinite'; // Remove the transition
+            dom.style.animation = 'spin 7s linear infinite'; // Remove the transition
         });
 
         setInterval(function () {

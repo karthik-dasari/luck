@@ -465,7 +465,7 @@ body {
     font-size: 31.3333px;
     line-height: 100%;
     overflow: hidden;
-    height: 18.6rem;
+    height: 160px;
     background: #fff;
     margin: 1rem 0 0 0;
     border-radius: .6rem;
@@ -476,12 +476,12 @@ body {
     -webkit-tap-highlight-color: transparent;
     font-size: 31.3333px;
     line-height: 100%;
-    margin: 2.2rem 0;
-    height: calc(100% - 4.4rem);
+    margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: rgb(223, 146, 33);
+    padding: 5px 0;
 }
 
 .swp-item{
